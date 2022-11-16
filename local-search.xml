@@ -3,5 +3,24 @@
   
   
   
+  <entry>
+    <title>self-hexo</title>
+    <link href="/2022/11/17/self-hexo/"/>
+    <url>/2022/11/17/self-hexo/</url>
+    
+    <content type="html"><![CDATA[<h2 id="环境准备"><a href="#环境准备" class="headerlink" title="环境准备"></a>环境准备</h2><h3 id="安装-Node-js"><a href="#安装-Node-js" class="headerlink" title="安装 Node.js"></a>安装 Node.js</h3><p>略</p><h3 id="安装-Git"><a href="#安装-Git" class="headerlink" title="安装 Git"></a>安装 Git</h3><p>略</p><h2 id="安装-Hexo"><a href="#安装-Hexo" class="headerlink" title="安装 Hexo"></a>安装 Hexo</h2><p>全局安装 hexo-cli ，用以创建 hexo 项目：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">npm install hexo-cli -g<br></code></pre></td></tr></table></figure><h2 id="创建博客"><a href="#创建博客" class="headerlink" title="创建博客"></a>创建博客</h2><h3 id="初始化"><a href="#初始化" class="headerlink" title="初始化"></a>初始化</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs Shell">hexo init hexo-blog<br>cd hexo-blog<br><br>npm install<br><span class="hljs-meta prompt_"># </span><span class="language-bash">或者</span><br>yarn install<br></code></pre></td></tr></table></figure><h3 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs Shell">hexo g<br>hexo server<br></code></pre></td></tr></table></figure><h2 id="部署在-github"><a href="#部署在-github" class="headerlink" title="部署在 github"></a>部署在 github</h2><h3 id="新建仓库"><a href="#新建仓库" class="headerlink" title="新建仓库"></a>新建仓库</h3><p>仓库名称限制为：用户名+.github.io</p><h3 id="安装上传插件"><a href="#安装上传插件" class="headerlink" title="安装上传插件"></a>安装上传插件</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">npm install hexo-deployer-git --save<br></code></pre></td></tr></table></figure><h3 id="修改-config-yml"><a href="#修改-config-yml" class="headerlink" title="修改 _config.yml"></a>修改 _config.yml</h3><img src="/2022/11/17/self-hexo/etc.png" class="" title="配置"><h3 id="推送"><a href="#推送" class="headerlink" title="推送"></a>推送</h3><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs Shell">hexo d<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>hexo</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
   
 </search>
